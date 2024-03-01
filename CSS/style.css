@@ -1,22 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
-    margin: 0 0 0 0;
-    background: linear-gradient(hsl(240, 81%, 33%), hsl(103, 7%, 80%), hsl(348, 71%, 33%));
+    margin: 0%;
+    padding: 1%;
+    background: linear-gradient(hsl(240, 35%, 30%), hsl(103, 7%, 80%), hsl(348, 71%, 33%));
     text-decoration: none;
     color: white;
     font-size: 1.3rem;
     font-family: poppins,sans-serif;
 }
 
-.Navbar header {
-    text-decoration: underline;
-    font-size: 2rem;
-    color: red;
+.Navbar {
+    background-color: transparent;
+    overflow: hidden;
 }
 
-.Introduction video{
-    box-shadow: blue;
+.Navbar .heading {
+    float: left;
+    font-size: 17px;
+}
+
+.Navbar a {
+    float: right;
+    color: aqua;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.Navbar a:hover {
+    border-radius: 20px;
+    background-color: aquamarine;
+    color:rgb(222, 17, 154);
 }
 
 a {
@@ -29,5 +45,101 @@ span {
 }
 
 h1,h2 {
+    text-align: center;
     text-decoration: underline solid white ;
 }
+
+.FFVB {
+    text-align: center;
+}
+
+.FFVB p,ul {
+    text-align: left;
+}
+
+.FFF {
+    text-align: center; /* Center-aligns all content within the section */
+}
+
+.FFF p {
+    text-align: left;
+}
+
+.FFF1 p,ul{
+    text-align: left;
+}
+
+.center-image {
+    display: block; /* Ensures that the image is displayed as a block element */
+    margin: 0 auto; /* Centers the image horizontally */
+    width: 250px;
+    height: 250px;
+}
+
+.French_Judo_Federation {
+    text-align: center;
+}
+
+
+.French_Judo_Federation p,ul{
+    text-align: left;
+}
+
+
+
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    width: 100%;
+    padding: 10px;
+
+}
+
+.footer-text a {
+    margin-top: 10px;
+    font-size: 25px;
+    float: center;
+    text-align: center;
+    padding: 14px 16px;
+    color: aquamarine;
+}
+
+.footer-text a:hover {
+    border-radius: 20px;
+    background-color: cyan;
+    color:hsl(240, 35%, 30%);
+}
+
+
+.footer-text h2 {
+    font-size: 2rem;
+    color: aqua;
+    text-decoration: underline;
+    margin-bottom: 1.2rem;
+    text-align: center;
+    
+}
+
+/* frame */
+
+.container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 46.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  }
+  
+  /* Then style the iframe to fit in the container div with full height and width */
+  .responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 100px;
+    bottom: 0;
+    right: 0;
+    width: 83%;
+    height: 100%;
+  }

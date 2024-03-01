@@ -1,0 +1,38 @@
+/* body {
+  background: linear-gradient(hsl(240, 35%, 30%), hsl(103, 7%, 80%), hsl(348, 71%, 33%)); 
+} */
+
+label {
+  display: block;
+}
+
+#title {
+  text-align: center;
+  font-family: Impact, serif;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+#desciption {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+#name {
+  text-align: left;
+}
+
+#age {
+  width: 120px;
+}
+
+footer {
+  text-align: center;
+}
+
+reset,submit {
+  align-items: center;
+}
