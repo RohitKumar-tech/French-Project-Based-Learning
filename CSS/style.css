@@ -16,11 +16,13 @@ body {
 }
 
 .Navbar .heading {
+    font-weight: 600;
     float: left;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 .Navbar a {
+    /* font-weight: 600; */
     float: right;
     color: aqua;
     text-align: right;
@@ -105,24 +107,25 @@ h1,h2 {
     float: center;
     text-align: center;
     padding: 14px 16px;
-    color: aquamarine;
+    color: lightblue;
 }
 
 .footer-text a:hover {
     border-radius: 20px;
-    background-color: cyan;
+    background-color: rgb(46, 208, 208);
     color:hsl(240, 35%, 30%);
 }
 
 
 .footer-text h2 {
     font-size: 2rem;
-    color: aqua;
+    color: wheat;
     text-decoration: underline;
     margin-bottom: 1.2rem;
     text-align: center;
     
 }
+
 
 /* frame */
 
