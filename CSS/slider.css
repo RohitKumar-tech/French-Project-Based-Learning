@@ -29,17 +29,16 @@
 }
 
 .slide-track > .slide {
-    height: 250px;
-    width: 250px;
     display: flex;
     align-items: center;
     padding: 15px;
-    perspective: 100px;
 }
 
+
 .slide-track img {
-    width: 100%;
+    width: 300px;
 }
+
 
 img.hover {
     transform: translateZ(20px);

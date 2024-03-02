@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<htmlg lang="en">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>French PBL</title>
-    <link href="../IMAGES/introduction/Srmseal.png" rel="icon">
+    <link rel="icon" href="/IMAGES/introduction/Srmseal.png">
     <link rel="stylesheet" href="../CSS/style.css">
     <link rel="stylesheet" href="../CSS/cards.css">
     <link rel="stylesheet" href="../CSS/slider.css">
@@ -13,18 +13,26 @@
 </head>
 <body>
     
-    <!-- Navbar -->
-    <section class="Navbar">
-        <a href="index.html" class="heading">FRENCH</a>
-            <navbar>
-                <a href="/HTML/judo.html" class="Judo">Judo</a>
-                <a href="/HTML/cycling.html" class="Cycling">Cycling</a>
-                <a href="/HTML/Volleyball.html" class="Volleyball">Volleyball</a>
-                <a href="/HTML/tennis.html" class="Tennis">Tennis</a>
-                <a href="/HTML/Fencing.html" class="Fencing">Fencing</a>
-                <a href="/HTML/Football.html" class="Football">Football</a>
-            </navbar>
-    </section>
+<!-- Navbar -->
+<section class="Navbar">
+    <a href="index.html" class="heading">FRENCH</a>
+    <navbar>
+        <div class="menu-links">
+            <a href="/HTML/judo.html" class="active">Judo</a>
+            <a href="/HTML/cycling.html" class="">Cycling</a>
+            <a href="/HTML/Volleyball.html" class="">Volleyball</a>
+            <a href="/HTML/tennis.html" class="">Tennis</a>
+            <a href="/HTML/Fencing.html" class="">Fencing</a>
+            <a href="/HTML/Football.html" class="">Football</a>
+        </div>
+    
+        <div id="menu-icon" class="bx bx-menu"></div>
+    
+        <span class="active-nav"></span>
+    </navbar>
+    
+</section>
+
 
     <div id="welcome">
     <!-- Introduction Page -->
@@ -36,9 +44,7 @@
 
     <div class="french_history">
             <h2>History of France</h2>
-            <img src="../IMAGES/introduction/hf1.jpeg" alt="France City" width="33%" height="300rem" >
-            <img src="../IMAGES/introduction/hf2.jpeg" alt="France City" width="33%" height="300rem">
-            <img src="../IMAGES/introduction/hf3.jpeg" alt="France City" width="33%" height="300rem">
+            <img src="../IMAGES/introduction/hf3.jpeg" alt="France City" width="33%" height="300rem" class="center-image">
             <p>1. <span>Ancient Gaul:</span> France has a rich history dating back to ancient times when it was inhabited by Celtic tribes known as Gauls. Julius Caesar's conquest of Gaul in the 1st century BC brought the region under Roman control. </p>
 
             <p>2. <span>Middle Ages and Feudalism:</span> The Middle Ages saw the rise of feudalism in France, with power decentralized among feudal lords and the monarchy. The Carolingian dynasty, particularly Charlemagne, played a significant role in unifying parts of France and establishing the Holy Roman Empire.</p>
@@ -54,9 +60,7 @@
 
         <div class="french_flag">
             <h2>France Flag</h2>
-            <img src="../IMAGES/introduction/ff1.jpeg" alt="France flag" width="33%" height="300rem">
-            <img src="../IMAGES/introduction/ff2.jpeg" alt="France flag" width="33%" height="300rem">
-            <img src="../IMAGES/introduction/ff3.jpeg" alt="France flag" width="33%" height="300rem">
+            <img src="../IMAGES/introduction/ff2.jpeg" alt="France flag" width="33%" height="300rem" class="center-image">
 
             <p>The French flag, officially known as the Tricolore, is a powerful symbol of the nation and its people. Here are 4 key points about it:</p>
 
@@ -81,9 +85,9 @@
 
         <div class="french_map">
             <h2>France Map</h2>
-            <img src="../IMAGES/introduction/fm1.jpeg" alt="France map" width="33%" height="300rem">
-            <img src="../IMAGES/introduction/fm2.jpeg" alt="France map" width="33%" height="300rem">
-            <img src="../IMAGES/introduction/fm3.jpeg" alt="France map" width="33%" height="300rem">
+
+            <img src="../IMAGES/introduction/fm2.jpeg" alt="France map" width="33%" height="300rem" class="center-image">
+
 
             <ol>
                 <li>
@@ -105,9 +109,7 @@
         
         <div class="france_leader">
         <h2>France Leader</h2>
-        <img src="../IMAGES/introduction/fl1.avif" alt="France leader" width="33%" height="300rem">
-        <img src="../IMAGES/introduction/fl3.jpeg" alt="France leader" width="33%" height="300rem">
-        <img src="../IMAGES/introduction/fl4.jpeg" alt="France leader" width="33%" height="300rem">
+        <img src="../IMAGES/introduction/fl3.jpeg" alt="France leader" width="33%" height="300rem" class="center-image">
 
         <ol>
             <li>
@@ -144,6 +146,6 @@
         
         </footer>
 
-    <script src="../JAVASCRIPT/script.js"></script>
+    <script src="/JAVASCRIPT/script.js"></script>
 </body>
 </html>

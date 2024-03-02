@@ -1,3 +1,4 @@
+
 .card {
   width: 30%; /* Adjusted width to fit three cards with spacing */
   border-radius: 8px;
@@ -61,4 +62,18 @@
   border-radius: 4px;
   margin-top: 16px;
   color: #ffffff;
+}
+
+@media (max-width : 1250px) {
+  .card,
+  .card_tennis {
+    width: 48%; /* Set width to 100% for smaller screens */
+    margin: 20px 0; /* Adjust margin to provide vertical spacing */
+}
+
+@media (max-width : 850px) {
+  .card,
+  .card_tennis {
+    width: 100%; /* Set width to 100% for smaller screens */
+    margin: 20px 0; /* Adjust margin to provide vertical spacing */
 }

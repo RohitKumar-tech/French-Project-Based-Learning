@@ -11,6 +11,8 @@ body {
 }
 
 .Navbar {
+    display: flex;
+    justify-content: space-between;
     background-color: transparent;
     overflow: hidden;
 }
@@ -18,7 +20,7 @@ body {
 .Navbar .heading {
     font-weight: 600;
     float: left;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .Navbar a {
@@ -36,6 +38,17 @@ body {
     background-color: aquamarine;
     color:rgb(222, 17, 154);
 }
+
+/* menu */
+
+#menu-icon {
+    position: relative;
+    font-size: 3.6rem;
+    color: var(--text-color);
+    cursor: pointer;
+    display: none;
+}
+
 
 a {
     text-decoration: none;
@@ -76,6 +89,9 @@ h1,h2 {
     margin: 0 auto; /* Centers the image horizontally */
     width: 250px;
     height: 250px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 50px #ffffff;
+    border-radius: 37px;
 }
 
 .French_Judo_Federation {
@@ -86,9 +102,6 @@ h1,h2 {
 .French_Judo_Federation p,ul{
     text-align: left;
 }
-
-
-
 
 /* footer */
 
@@ -146,3 +159,66 @@ h1,h2 {
     width: 83%;
     height: 100%;
   }
+
+/* Hide menu links when screen width is greater than 768px */
+.menu-links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (max-width: 850px) {
+
+    .menu-links {
+        display: none;
+    }
+    
+    /* Show menu icon */
+    #menu-icon {
+        display: block;
+    }
+    
+    /* Style for dropdown menu */
+    .menu-links.dropdown {
+        display: flex; /* Ensure links are displayed vertically */
+        flex-direction: column; /* Arrange links vertically */
+        position: absolute;
+        top: 6%;
+        left: 0;
+        background-color: hsl(240, 35%, 30%);
+        z-index: 1000;
+        width: 100%;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .menu-links.dropdown a {
+        display: block;
+        padding: 10px 0;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+    }
+    
+    .menu-links.dropdown a:hover {
+        background-color: hsl(348, 73%, 68%);
+        color: aquamarine;
+    }
+
+    .responsive-iframe {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%; /* Adjust width if necessary */
+        height: 100%; /* Ensure height adjusts proportionally */
+    }
+
+}
+
+@media (max-width: 650px) {
+    .footer-text a {
+        display: flex; /* Ensure links are displayed vertically */
+        flex-direction: column; /* Arrange links vertically */
+        padding: 2px;
+        margin: 2px;
+    }
+}
