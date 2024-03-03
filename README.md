@@ -3,21 +3,27 @@
 
 ## Working Application
 
-Check Out the Live Version -> [Spotify-Clone](https://rohitsaraf.store/)
+Check Out the Live Version -> [French-PBL](https://rohitsaraf.store/)
 
 ## Screenshots
 
 
-![Website Screenshot](images/pausefull.png)
+![Website Screenshot](IMAGES/website/full.png)
 
 
-![Website Screenshot](images/playfull.png)
+![Website Screenshot](IMAGES/website/full1.png)
 
 
-![Website Screenshot](images/playresponsive.png)
+![Website Screenshot](IMAGES/website/slider.png)
 
 
-![Website Screenshot](images/playresponsive1.png)
+![Website Screenshot](IMAGES/website/card.png)
+
+
+![Website Screenshot](IMAGES/website/res1.png)
+
+
+![Website Screenshot](IMAGES/website/menu.png)
 
 ## Support
 
